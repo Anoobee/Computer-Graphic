@@ -1,0 +1,28 @@
+# Ignore compiled binaries and executables
+*.exe
+*.out
+*.o
+
+# Ignore logs and databases
+*.log
+*.sqlite
+*.db
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/Editor specific files
+.vscode/
+.idea/
+*.suo
+*.sln
+*.swp
+
+# Ignore dependencies
+/node_modules
+/vendor
+
+# Ignore configuration files that may contain sensitive information
+config.ini
+.env
